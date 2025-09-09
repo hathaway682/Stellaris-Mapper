@@ -1,0 +1,344 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "StellarisMapper.MultiStarDemo/1.0.0": {
+        "dependencies": {
+          "StellarisMapper": "1.0.0"
+        },
+        "runtime": {
+          "StellarisMapper.MultiStarDemo.dll": {}
+        }
+      },
+      "ExcelDataReader/3.7.0": {
+        "runtime": {
+          "lib/netstandard2.1/ExcelDataReader.dll": {
+            "assemblyVersion": "3.7.0.0",
+            "fileVersion": "3.7.0.0"
+          }
+        }
+      },
+      "GraphX/3.0.0": {
+        "dependencies": {
+          "QuickGraphCore": "1.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/GraphX.Core.Controls.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netcoreapp3.1/GraphX.Standard.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netcoreapp3.1/GraphX.Standard.Logic.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MathNet.Numerics/4.9.1": {
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {
+            "assemblyVersion": "4.9.1.0",
+            "fileVersion": "4.9.1.0"
+          }
+        }
+      },
+      "MathNet.Spatial/0.6.0": {
+        "dependencies": {
+          "MathNet.Numerics": "4.9.1",
+          "System.Diagnostics.Contracts": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Spatial.dll": {
+            "assemblyVersion": "0.6.0.0",
+            "fileVersion": "0.6.0.0"
+          }
+        }
+      },
+      "MIConvexHull/1.1.19.1019": {
+        "runtime": {
+          "lib/netstandard2.0/MIConvexHull.dll": {
+            "assemblyVersion": "1.1.19.1018",
+            "fileVersion": "1.1.19.1018"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Win32.SystemEvents/9.0.8": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36511"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36511"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "QuickGraphCore/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/QuickGraph.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "QuikGraph/2.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/QuikGraph.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.0.0"
+          }
+        }
+      },
+      "SixLabors.Fonts/2.1.3": {
+        "runtime": {
+          "lib/net6.0/SixLabors.Fonts.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.3.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/3.1.11": {
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.11.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp.Drawing/2.1.7": {
+        "dependencies": {
+          "SixLabors.Fonts": "2.1.3",
+          "SixLabors.ImageSharp": "3.1.11"
+        },
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.Drawing.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.7.0"
+          }
+        }
+      },
+      "System.Diagnostics.Contracts/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Drawing.Common/9.0.8": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "9.0.8"
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36801"
+          },
+          "lib/net8.0/System.Private.Windows.Core.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36801"
+          }
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Text.Encoding.CodePages/9.0.8": {
+        "runtime": {
+          "lib/net8.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36511"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Text.Encoding.CodePages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.825.36511"
+          }
+        }
+      },
+      "StellarisMapper/1.0.0": {
+        "dependencies": {
+          "ExcelDataReader": "3.7.0",
+          "GraphX": "3.0.0",
+          "MIConvexHull": "1.1.19.1019",
+          "MathNet.Spatial": "0.6.0",
+          "Newtonsoft.Json": "13.0.3",
+          "QuikGraph": "2.5.0",
+          "SixLabors.ImageSharp": "3.1.11",
+          "SixLabors.ImageSharp.Drawing": "2.1.7",
+          "System.Drawing.Common": "9.0.8",
+          "System.Text.Encoding.CodePages": "9.0.8"
+        },
+        "runtime": {
+          "StellarisMapper.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StellarisMapper.MultiStarDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExcelDataReader/3.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AMv3oDETRHSRyXC17rBtKH45qIfFyo433LMeaMB3u4RNr/c9Luuc0Z+JMP6+3Cx9n4wXqFqcrEIVxrf/GgYnZg==",
+      "path": "exceldatareader/3.7.0",
+      "hashPath": "exceldatareader.3.7.0.nupkg.sha512"
+    },
+    "GraphX/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ddz9h0j0Hq8ciSiFv/DFj+1giiq6GpJwKQWf9/p4fpGck8JJCI1skGf+7sh41OOJ3S119kKOSoi4V9znyIP9kw==",
+      "path": "graphx/3.0.0",
+      "hashPath": "graphx.3.0.0.nupkg.sha512"
+    },
+    "MathNet.Numerics/4.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tLg/nvtdYd830Ee8nWsrsIiBTxeKmUEtsrQIPX4Sn60l7eMmZFIvSaMdG6o08FGsByi0TArJ6tx8LVT4vpWqyQ==",
+      "path": "mathnet.numerics/4.9.1",
+      "hashPath": "mathnet.numerics.4.9.1.nupkg.sha512"
+    },
+    "MathNet.Spatial/0.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-suGp382PvzFjgIGbF2ehv7NjoBt3ub4U2eZqhBpZkcc/FjQ9oDwUwKxO8eCxVgOHj2kMJn0Eh6Nnp+42JLSRwg==",
+      "path": "mathnet.spatial/0.6.0",
+      "hashPath": "mathnet.spatial.0.6.0.nupkg.sha512"
+    },
+    "MIConvexHull/1.1.19.1019": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qz0BIRVyflj9jMkIKG1tpON5Xz1lFEA9XyRH0Pw5qIsCE75heHF4cHrBr8RqvQJRaaNXH+5jdWAfFP3m3OfTOA==",
+      "path": "miconvexhull/1.1.19.1019",
+      "hashPath": "miconvexhull.1.1.19.1019.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-64oQBN8I8EOcyHGNt6+rlcqm4tlcKfqOpswtBCJZnpzBQ15L6IFKqjnbjbOWBpG9wKq9A/aC2LFSmSqplbwTYA==",
+      "path": "microsoft.win32.systemevents/9.0.8",
+      "hashPath": "microsoft.win32.systemevents.9.0.8.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "QuickGraphCore/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jdY9zBjXMlWn49hiqLZFXfFJ3uCXkp3vSELu6a4XjuPR0efUS9z2z5M50DqPl6p980QV6FpGzD1N+m2P8F1Tqw==",
+      "path": "quickgraphcore/1.0.0",
+      "hashPath": "quickgraphcore.1.0.0.nupkg.sha512"
+    },
+    "QuikGraph/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sG+mrPpXwxlXknRK5VqWUGiOmDACa9X+3ftlkQIMgOZUqxVOQSe0+HIU9PTjwqazy0pqSf8MPDXYFGl0GYWcKw==",
+      "path": "quikgraph/2.5.0",
+      "hashPath": "quikgraph.2.5.0.nupkg.sha512"
+    },
+    "SixLabors.Fonts/2.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ORWbZ5BHrC/LZvo+Y09MnoJq5VUKD85LsYALk+YI7CHFra+m5arCkz00IntDM6SrAiB22bvSdKtKmuCyHOKlqg==",
+      "path": "sixlabors.fonts/2.1.3",
+      "hashPath": "sixlabors.fonts.2.1.3.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/3.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JfPLyigLthuE50yi6tMt7Amrenr/fA31t2CvJyhy/kQmfulIBAqo5T/YFUSRHtuYPXRSaUHygFeh6Qd933EoSw==",
+      "path": "sixlabors.imagesharp/3.1.11",
+      "hashPath": "sixlabors.imagesharp.3.1.11.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp.Drawing/2.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9KwCo9Fa350cx6ckpsy8NqXQZKwir4RQ8Kj0sdCmJA7wsK9FMyfgC527Sn4l/D6bj2ditSHlhS7dGzcgGszvSQ==",
+      "path": "sixlabors.imagesharp.drawing/2.1.7",
+      "hashPath": "sixlabors.imagesharp.drawing.2.1.7.nupkg.sha512"
+    },
+    "System.Diagnostics.Contracts/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eelRRbnm+OloiQvp9CXS0ixjNQldjjkHO4iIkR5XH2VIP8sUB/SIpa1TdUW6/+HDcQ+MlhP3pNa1u5SbzYuWGA==",
+      "path": "system.diagnostics.contracts/4.3.0",
+      "hashPath": "system.diagnostics.contracts.4.3.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ineIJmF+yuBEHGft9R153J9kmBFaeEfFL5Put5nzENneRcGGPUb3MvM8zrZ5pERQ0jPPSE3Wqw/clXvOq2F/Kw==",
+      "path": "system.drawing.common/9.0.8",
+      "hashPath": "system.drawing.common.9.0.8.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-saQP8rTuTrZ7haWrf1Vfr2ft39N+AEbUdCEwOTvjN4SOgX+G1gQTWQZGnDe4x4uJDivjgLt0Y6Xzsfm0wW80FA==",
+      "path": "system.text.encoding.codepages/9.0.8",
+      "hashPath": "system.text.encoding.codepages.9.0.8.nupkg.sha512"
+    },
+    "StellarisMapper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

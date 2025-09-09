@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/admin/workspace/stellaris_mapper/src/StellarisMapper.ColorDemo/StellarisMapper.ColorDemo.csproj": {}
+  },
+  "projects": {
+    "/home/admin/workspace/stellaris_mapper/src/StellarisMapper.ColorDemo/StellarisMapper.ColorDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/admin/workspace/stellaris_mapper/src/StellarisMapper.ColorDemo/StellarisMapper.ColorDemo.csproj",
+        "projectName": "StellarisMapper.ColorDemo",
+        "projectPath": "/home/admin/workspace/stellaris_mapper/src/StellarisMapper.ColorDemo/StellarisMapper.ColorDemo.csproj",
+        "packagesPath": "/home/admin/.nuget/packages/",
+        "outputPath": "/home/admin/workspace/stellaris_mapper/src/StellarisMapper.ColorDemo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/admin/workspace/stellaris_mapper/src/StellarisMapper/StellarisMapper.csproj": {
+                "projectPath": "/home/admin/workspace/stellaris_mapper/src/StellarisMapper/StellarisMapper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/admin/workspace/stellaris_mapper/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/admin/workspace/stellaris_mapper/src/StellarisMapper/StellarisMapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/admin/workspace/stellaris_mapper/src/StellarisMapper/StellarisMapper.csproj",
+        "projectName": "StellarisMapper",
+        "projectPath": "/home/admin/workspace/stellaris_mapper/src/StellarisMapper/StellarisMapper.csproj",
+        "packagesPath": "/home/admin/.nuget/packages/",
+        "outputPath": "/home/admin/workspace/stellaris_mapper/src/StellarisMapper/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/admin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "GraphX": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "MIConvexHull": {
+              "target": "Package",
+              "version": "[1.1.19.1019, )"
+            },
+            "MathNet.Spatial": {
+              "target": "Package",
+              "version": "[0.6.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "QuikGraph": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "SixLabors.ImageSharp.Drawing": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/admin/workspace/stellaris_mapper/dotnet/sdk/8.0.413/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
